@@ -38,27 +38,29 @@ sudo docker-compose up
 
 You can find a step by step <a href="https://github.com/ParaffinIoT/paraffin/wiki/Tutorial">tutorial</a> in wiki page .
 
+## Installation
+
+### Development
+
+Paraffin is composed by different microservices.
+Follow the installation guidelines for each of them.
+
+| Microservice  | Description |
+| ------------- | ------------- |
+| [API Server](https://paraffiniot.github.io/apiserver) | API Server |
+| [Brokero](https://paraffiniot.github.io/brokero)  | Paraffin Installer Shell Script |
+| [Broker](https://paraffiniot.github.io/broker) | MQTT/HTTP/CoAP server/broker |
+| [Dashboard](https://paraffiniot.github.io/dashboard) | Paraffin Admin Dashboard |
 
 
-## Paraffin API
+#### Development Environment Variable
 
-The Thing API defines a set of services to create, update or control any things. 
+During deployment, every microservice needs to be set to the following environment variables (remember to change them with your own microservices, mongodb).
 
-```
-POST /signup
-POST /signin
-POST /thing
-GET /thing
-GET /thing/:clientid
-PUT /thing/:clientid
-DELETE /thing/:clientid
-```
-
-Example: for invoking list of created things as locally;
-```
-GET http://localhost:1337/api/thing/
-```
-
+| Environment Variable | Description |
+| ------------- | ------------- |
+| `DB_URL=development` | MongoDB URL |
+| `NODE_ENV=development` | Development environment |
 
 
 
