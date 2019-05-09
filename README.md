@@ -1,5 +1,5 @@
 # Paraffin IoT Platform Website
-[Paraffin Platform](https://paraffiniot.github.io)
+
 
 ## About
 
@@ -94,7 +94,7 @@ Use the [issue tracker](https://github.com/ParaffinIoT/paraffin/issues) for bugs
 * [Mongodb](https://www.mongodb.com/)
 * [MQTT protocol](http://mqtt.org)
 * [MQTT.js](http://github.com/adamvr/MQTT.js)
-
+* [Paraffin Platform](https://paraffiniot.github.io)
 
 
 ## Authors
