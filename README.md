@@ -40,6 +40,13 @@ You can find a step by step <a href="https://github.com/ParaffinIoT/paraffin/wik
 
 ## Installation
 
+Run the following command in your terminal to install the latest official Paraffin IoT Platform release.
+
+```bash
+sudo curl -o- https://raw.githubusercontent.com/ParaffinIoT/brokero/master/install.sh | bash
+```
+
+
 ### Development
 
 Paraffin is composed by different microservices.
