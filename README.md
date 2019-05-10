@@ -18,10 +18,20 @@ Broker is based on Ponte and is under development so it should work. It need tim
 * Sercured with authentication and JWT.
 
 
-## Steps to run
+## Installation
 
 Firstly besure docker and docker-compose is installed.
 
+### Using Shell Script
+
+Run the following command in your terminal to install the latest official Paraffin IoT Platform release.
+
+```bash
+sudo curl -o- https://raw.githubusercontent.com/ParaffinIoT/brokero/master/install.sh | bash
+```
+
+
+### Manuall
 
 Download Paraffin IoT Platform git;
 ```bash
@@ -37,15 +47,6 @@ sudo docker-compose up
 ## Tutorial
 
 You can find a step by step <a href="https://github.com/ParaffinIoT/paraffin/wiki/Tutorial">tutorial</a> in wiki page .
-
-## Installation
-
-Run the following command in your terminal to install the latest official Paraffin IoT Platform release.
-
-```bash
-sudo curl -o- https://raw.githubusercontent.com/ParaffinIoT/brokero/master/install.sh | bash
-```
-
 
 ### Development
 
