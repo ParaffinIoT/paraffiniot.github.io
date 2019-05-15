@@ -6,6 +6,8 @@
 
 #### Paraffin is IoT platform based on node.js and mongodb with MQTT, HTTP and CoAP bridge.
 
+![Paraffin IoT Platform diagram](https://raw.githubusercontent.com/ParaffinIoT/docs/master/images/ParaffinIoT_Diagram_01.png)
+
 Paraffin will enable you to put your IoT API services on your own server simply and painless in one command. It supports the popular MQTT protocol in sync with HTTP. It is in javascript and by Parse Server api server will be able to authorize your device list so broker perform authentication by your entry data in MongoDB by api server.
 Broker is based on Ponte and is under development so it should work. It need time to release stable version.
 
