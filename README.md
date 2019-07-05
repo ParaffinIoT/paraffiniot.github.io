@@ -26,6 +26,8 @@ There are two methods for installing Paraffin IoT Platform. Either way, make sur
 
 ### Using Shell Script
 
+[![asciicast](https://asciinema.org/a/255799.svg)](https://asciinema.org/a/255799)
+
 Run the following command in your terminal to install the latest official Paraffin IoT Platform release.
 
 ```bash
