@@ -26,6 +26,8 @@ Paraffin IoT Platform is installed by two methods. Firstly besure docker and doc
 
 ### Using Shell Script
 
+[![asciicast](https://asciinema.org/a/255799.svg)](https://asciinema.org/a/255799)
+
 Run the following command in your terminal to install the latest official Paraffin IoT Platform release.
 
 ```bash
