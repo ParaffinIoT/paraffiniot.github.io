@@ -1,15 +1,18 @@
-# Paraffin IoT Platform
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ParaffinIoT/docs/master/images/paraffin_iot_platform.png">
+</p>
 
+# Paraffin IoT Platform
 
 ## About
 
 
-> Paraffin is an IoT platform  with MQTT, HTTP and CoAP bridge, based on Node.js and mongoDB.
+#### Paraffin is IoT platform based on node.js and mongodb with MQTT, HTTP and CoAP bridge.
 
 ![Paraffin IoT Platform diagram](https://raw.githubusercontent.com/ParaffinIoT/docs/master/images/ParaffinIoT_Diagram_01.png)
 
-Paraffin will enable you to put your IoT API services on your own server simply and painlessly in one command. It supports the popular MQTT protocol in sync with HTTP. Paraffin is developed using JavaScript. It utilizes `Parse Server` as API Server and a broker based on `Ponte`. The broker performs authentication using your data in residing in MongoDB via the API Server.
-Paraffin is still under development.
+Paraffin will enable you to put your IoT API services on your own server simply and painless in one command. It supports the popular MQTT protocol in sync with HTTP. It is in javascript and by Parse Server api server will be able to authorize your device list so broker perform authentication by your entry data in MongoDB by api server.
+Broker is based on Ponte and is under development so it should work. It need time to release stable version.
 
 
 ## Features
@@ -17,12 +20,12 @@ Paraffin is still under development.
 * Simple and Scalable.
 * HTTP, MQTT and CoAP connections together as a bridge.
 * MQTT 3.1 and 3.1.1 compliant.
-* Sercured with authentication and JWT.
+* Sercured with authentication and authorization.
 
 
 ## Installation
 
-There are two methods for installing Paraffin IoT Platform. Either way, make sure docker and docker-compose are installed before you proceed.
+Paraffin IoT Platform is installed by two methods. Firstly besure docker and docker-compose is installed.
 
 ### Using Shell Script
 
@@ -37,7 +40,7 @@ sudo curl -o- https://raw.githubusercontent.com/ParaffinIoT/paraffin/master/inst
 
 ### Using Git
 
-Download Paraffin IoT Platform's git repository
+Download Paraffin IoT Platform git
 ```bash
 git clone https://github.com/ParaffinIoT/paraffin
 
@@ -50,12 +53,12 @@ sudo docker-compose up
 
 ## Tutorial
 
-You can find a step-by-step <a href="https://github.com/ParaffinIoT/paraffin/wiki/Tutorial">tutorial</a> in wiki page .
+You can find a step by step <a href="https://github.com/ParaffinIoT/paraffin/wiki/Tutorial">tutorial</a> in wiki page .
 
 ### Development
 
-Paraffin is composed of different microservices.
-Each of them have their own installation guidelines to follow.
+Paraffin is composed by different microservices.
+Follow the installation guidelines for each of them.
 
 | Microservice  | Description |
 | ------------- | ------------- |
@@ -67,29 +70,23 @@ Each of them have their own installation guidelines to follow.
 
 #### Development Environment Variable
 
-During deployment, every microservice needs to be set to the following environment variables (remember to change them with your own microservices, MongoDB).
-
-| Environment Variable | Description |
-| ------------- | ------------- |
-| `DB_URL=development` | MongoDB URL |
-| `NODE_ENV=development` | Development environment |
-
+During deployment, every microservice needs to be set to the following environment variables (remember to change them with your own microservices, mongodb). You can customize .env file in every repository.
 
 
 ### Learn more
 
-A test version of Paraffin IoT Platform will be available at paraffin.iokloud.com soon.
+You can find a test version of Paraffin IoT Platform at paraffin.iokloud.com as soon as possible.
 
-If you find Paraffin useful, please consider supporting the project by buying a support package
-from [me](http://twitter.com/iokloud) by writing an email to iokloud.com@gmail.com.
+If you find Paraffin useful, consider supporting the project by buying a support package
+from [me](http://twitter.com/iokloud) by writing an email to iokloud.com@gmail.com
 
-Check out our [showcase](https://github.com/ParaffinIoT/paraffin/wiki/IOK-Express-Showcases) wiki
+Check out our [showcase](https://github.com/ParaffinIoT/paraffin/wiki/Paraffin-Showcases) wiki
 page! Feel free to add yourself! :)
 
 ## Security Issues
 
 __Paraffin-IoT__ sits between your system and the devices: this is a tough role, and we did our best to secure your systems.
-However, you might find a security issue: in that case, email @iokloud at iokloud.com@gmail.com
+However, you might find a security issue: in that case, email iokloud.com@gmail.com
 
 
 ## Feedback
@@ -100,10 +97,11 @@ Use the [issue tracker](https://github.com/ParaffinIoT/paraffin/issues) for bugs
 
 ## Links
 
+* [authBroker](https://github.com/authbroker/authbroker)
 * [Mosca](http://github.com/mcollina/mosca)
 * [Ponte](https://github.com/eclipse/ponte)
 * [Parse Server](https://parseplatform.org)
-* [MongoDB](https://www.mongodb.com/)
+* [Mongodb](https://www.mongodb.com/)
 * [MQTT protocol](http://mqtt.org)
 * [MQTT.js](http://github.com/adamvr/MQTT.js)
 * [Paraffin Platform](https://paraffiniot.github.io)
@@ -111,7 +109,7 @@ Use the [issue tracker](https://github.com/ParaffinIoT/paraffin/issues) for bugs
 
 ## Authors
 
-[Hadi Mahdavi](https://github.com/expandboard),
-[Nana Kwame Zoe](https://github.com/banphlet),
-[Kwarteng Wisdom](https://github.com/Wisdom0063),
+[Hadi Mahdavi](https://github.com/expandboard)
+[Nana Kwame Zoe](https://github.com/banphlet)
+[Kwarteng Wisdom](https://github.com/Wisdom0063)
 [Ahmad Rafiee](https://github.com/AhmadRafiee)
