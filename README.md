@@ -1,6 +1,8 @@
-# Paraffin IoT Platform
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ParaffinIoT/docs/master/images/paraffin_iot_platform.png">
+</p>
 
-![Paraffin IoT Platform](https://raw.githubusercontent.com/ParaffinIoT/docs/master/images/paraffin_iot_platform.png)
+# Paraffin IoT Platform
 
 ## About
 
