@@ -1,5 +1,6 @@
-# Paraffin IoT Platform Website
+# Paraffin IoT Platform
 
+![Paraffin IoT Platform](https://raw.githubusercontent.com/ParaffinIoT/docs/master/images/paraffin_iot_platform.png)
 
 ## About
 
@@ -17,7 +18,7 @@ Broker is based on Ponte and is under development so it should work. It need tim
 * Simple and Scalable.
 * HTTP, MQTT and CoAP connections together as a bridge.
 * MQTT 3.1 and 3.1.1 compliant.
-* Sercured with authentication and JWT.
+* Sercured with authentication and authorization.
 
 
 ## Installation
