@@ -67,13 +67,7 @@ Follow the installation guidelines for each of them.
 
 #### Development Environment Variable
 
-During deployment, every microservice needs to be set to the following environment variables (remember to change them with your own microservices, mongodb).
-
-| Environment Variable | Description |
-| ------------- | ------------- |
-| `DB_URL=development` | MongoDB URL |
-| `NODE_ENV=development` | Development environment |
-
+During deployment, every microservice needs to be set to the following environment variables (remember to change them with your own microservices, mongodb). You can customize .env file in every repository.
 
 
 ### Learn more
@@ -81,15 +75,15 @@ During deployment, every microservice needs to be set to the following environme
 You can find a test version of Paraffin IoT Platform at paraffin.iokloud.com as soon as possible.
 
 If you find Paraffin useful, consider supporting the project by buying a support package
-from [me](http://twitter.com/iokloud) by writing an email to iokloud.com@gmail.com.
+from [me](http://twitter.com/iokloud) by writing an email to iokloud.com@gmail.com
 
-Check out our [showcase](https://github.com/ParaffinIoT/paraffin/wiki/IOK-Express-Showcases) wiki
+Check out our [showcase](https://github.com/ParaffinIoT/paraffin/wiki/Paraffin-Showcases) wiki
 page! Feel free to add yourself! :)
 
 ## Security Issues
 
 __Paraffin-IoT__ sits between your system and the devices: this is a tough role, and we did our best to secure your systems.
-However, you might find a security issue: in that case, email @iokloud at iokloud.com@gmail.com
+However, you might find a security issue: in that case, email iokloud.com@gmail.com
 
 
 ## Feedback
@@ -100,6 +94,7 @@ Use the [issue tracker](https://github.com/ParaffinIoT/paraffin/issues) for bugs
 
 ## Links
 
+* [authBroker](https://github.com/authbroker/authbroker)
 * [Mosca](http://github.com/mcollina/mosca)
 * [Ponte](https://github.com/eclipse/ponte)
 * [Parse Server](https://parseplatform.org)
@@ -114,4 +109,4 @@ Use the [issue tracker](https://github.com/ParaffinIoT/paraffin/issues) for bugs
 [Hadi Mahdavi](https://github.com/expandboard)
 [Nana Kwame Zoe](https://github.com/banphlet)
 [Kwarteng Wisdom](https://github.com/Wisdom0063)
-[ahmad Rafiee](https://github.com/AhmadRafiee)
+[Ahmad Rafiee](https://github.com/AhmadRafiee)
