@@ -29,9 +29,9 @@ Paraffin IoT Platform is installed by two methods. Firstly besure docker and doc
 
 ### Using Shell Script
 
-[![asciicast](https://asciinema.org/a/255799.svg)](https://asciinema.org/a/255799)
+[![asciicast](https://asciinema.org/a/256103.svg)](https://asciinema.org/a/256103)
 
-Run the following command in your terminal to install the latest official Paraffin IoT Platform release.
+Run the following command in your terminal to install the latest official Paraffin IoT Platform release. For customization environment variables, make ./broker.env and ./apiserver.env with your desired variables before run installer shell script. Deafualt value will loaded if .env files is not existence in current path.
 
 ```bash
 sudo curl -o- https://raw.githubusercontent.com/ParaffinIoT/paraffin/master/install.sh | bash
